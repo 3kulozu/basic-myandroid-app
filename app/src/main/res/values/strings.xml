@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MyLG2</string>
+    <string name="title"> Sport Center </string>
+    <string name="rdFirst"> Swimming </string>
+    <string name="rdSecond"> Zumba </string>
+    <string name="rdThird"> Pilates </string>
+    <string name="checkBox"> Favourite </string>
+    <string name="editTextTextPersonName"> Name </string>
+    <string name="editTextTextPassword"> Password </string>
+
+
+</resources>

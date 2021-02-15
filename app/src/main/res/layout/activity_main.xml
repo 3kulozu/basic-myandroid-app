@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Beste -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E8F5E9"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:text="Sport Center"
+        android:textColor="#a6164d"
+        android:textSize="32dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:background="#FFFFFF"
+        app:srcCompat="@drawable/swim"
+        tools:layout_editor_absoluteX="91dp"
+        tools:layout_editor_absoluteY="187dp" />
+
+
+    <RadioGroup
+        android:id="@+id/rdbtngrp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" >
+
+        <RadioButton
+            android:id="@+id/rdFirst"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:onClick="checkedRadio"
+            android:text="@string/rdFirst"
+            android:textSize="15sp"
+            tools:text="Swimming" />
+
+        <RadioButton
+            android:id="@+id/rdSecond"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:onClick="checkedRadio"
+            android:text="@string/rdSecond"
+            android:textSize="15sp"
+            tools:text="Zumba" />
+
+        <RadioButton
+            android:id="@+id/rdThird"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:onClick="checkedRadio"
+            android:text="@string/rdThird"
+            android:textSize="15sp"
+            tools:text="Pilates" />
+
+
+    </RadioGroup>
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        style="?android:attr/starStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:text="Favourite"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="613dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Name"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="462dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:text="Password"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="515dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:text="How many day in a week ?"
+        tools:layout_editor_absoluteX="138dp"
+        tools:layout_editor_absoluteY="683dp" />
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="7"
+        android:progress="1"
+        android:progressDrawable="@drawable/custom_progress"
+        tools:layout_editor_absoluteY="187dp" />
+
+</LinearLayout>
